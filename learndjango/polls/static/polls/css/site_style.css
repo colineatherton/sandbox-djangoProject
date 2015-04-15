@@ -1,6 +1,72 @@
-#header {
-  background-color: #5e5e5e; }
-  #header h1 {
+header {
+  border-bottom: solid 2px green; }
+  header #headerLeft img {
+    padding-top: 7px;
+    padding-bottom: 4px;
+    float: left; }
+  header #headerRight img {
+    padding-top: 7px;
+    padding-bottom: 4px;
+    float: right; }
+
+#ed_mission {
+  background-color: #3a945b;
+  height: 400px; }
+  #ed_mission h1 {
+    font-size: 3em;
+    position: relative;
+    bottom: -200px; }
+
+#ed_features {
+  text-align: center; }
+  #ed_features h2 {
+    font-size: 1.2em; }
+
+#platform_mission {
+  background-color: #3a945b; }
+  #platform_mission h1 {
+    font-size: 3em; }
+
+#platform_features {
+  text-align: center; }
+  #platform_features h2 {
+    font-size: 1.2em; }
+
+#pricing {
+  text-align: center; }
+
+#customers {
+  background-color: #3a945b;
+  height: 400px; }
+
+#signup {
+  text-align: center; }
+  #signup a {
     font-size: 2em; }
+
+#tour {
+  text-align: center; }
+  #tour h1 {
+    font-size: 1.5em; }
+
+#social {
+  text-align: center; }
+  #social h1 {
+    font-size: 1.5em; }
+
+#contact {
+  text-align: center; }
+  #contact h1 {
+    font-size: 1.5em; }
+
+footer {
+  background-color: #ebebeb; }
+  footer ul {
+    list-style: none; }
+    footer ul h1 {
+      font-size: 1.3em;
+      text-decoration: underline; }
+    footer ul li {
+      text-align: left; }
 
 /*# sourceMappingURL=site_style.css.map */
