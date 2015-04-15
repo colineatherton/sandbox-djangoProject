@@ -1,1 +1,6 @@
-h1 {font-size: 1em;}
+#header {
+  background-color: #5e5e5e; }
+  #header h1 {
+    font-size: 2em; }
+
+/*# sourceMappingURL=site_style.css.map */
