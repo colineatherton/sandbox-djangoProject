@@ -4,6 +4,8 @@ from django.core.urlresolvers import reverse
 from django.views import generic
 from django.utils import timezone
 
+from django.template import loader
+
 from .models import Choice, Question
 
 
@@ -57,3 +59,9 @@ def testpage(request):
 
 def helloworld(request):
     return HttpResponse("<p>Hello World</p>")
+
+# Project - create a responsive page polls/home/
+
+def HomeView(request):
+    t = loader.get_template('polls/home.html')
+    return HttpResponse(t.render())

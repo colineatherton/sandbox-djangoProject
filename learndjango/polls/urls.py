@@ -18,5 +18,5 @@ urlpatterns = [
     url(r'helloworld', views.helloworld, name='helloworld'),
 
     # project - create responsive page polls/home/
-    url(r'home', views.HomeView.as_view(), name='home'),
+    url(r'^home/$', views.HomeView, name='home'),
 ]
